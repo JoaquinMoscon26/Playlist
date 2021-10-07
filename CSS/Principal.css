@@ -1,0 +1,94 @@
+/*H1 fuente*/
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Barlow+Condensed:wght@500&display=swap');
+
+/*@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+font-family: 'Architects Daughter', cursive;*/
+
+
+/*BODY*/
+body{
+    margin:0 ;
+    background-color: #FF6347
+
+}
+
+/*HEADER*/
+header{
+    background-color: rgb(39, 38, 38);
+    
+    margin-top:0;
+}
+
+#caja-logo-header{
+    position:relative;
+    height: 165px;
+}
+
+#playlist-header{
+
+    position:absolute;
+    margin: 0;
+    padding-top: 60px ;
+    padding-left: 20px;
+    color: #FF6347;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    
+    
+}
+
+h1{
+    margin:0;
+}
+
+/*MAIN*/
+table{
+    border: #333333  1px;
+
+}
+th{
+    border: #333333 solid 2px;
+}
+td{
+    border: #333333 solid 2px;
+}
+.color-par-tabla{
+    color:white
+}
+
+.color-impar-tabla{
+
+    color: #d3d3d3;
+}
+
+/*FOOTER*/
+
+footer{
+
+    background-color:#272626 ;
+    margin: 0;
+
+}
+#caja-footer{
+
+    position: relative;
+    height: 130px;;
+}
+
+#caja-de-caja-footer{
+
+    position: absolute;
+
+    font-size: 15px;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #FF6347;
+
+}
+
+
+
+
+
+    
+
+
