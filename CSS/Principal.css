@@ -1,8 +1,8 @@
 /*H1 fuente*/
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Barlow+Condensed:wght@500&display=swap');
 
-/*@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
-font-family: 'Architects Daughter', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
 
 
 /*BODY*/
@@ -44,22 +44,54 @@ h1{
 /*MAIN*/
 table{
     border: #333333  1px;
+    margin: 30px auto;
+    width: 800px;
+    height: 100px;
+    font-family: 'Architects Daughter';
 
 }
 th{
     border: #333333 solid 2px;
+    
 }
 td{
     border: #333333 solid 2px;
+    text-align: center;
+
+    
 }
 .color-par-tabla{
-    color:white
+    background-color:white
+    
 }
+
+#caja_de_tabla{
+
+    position: relative;
+
+    
+}
+/*
+#tabla{
+    position: absolute;
+
+}
+*/
+
 
 .color-impar-tabla{
 
-    color: #d3d3d3;
+    background-color: #9e9e9e;
 }
+
+/*IMAGENES DE TABLA*/
+.imagen_tabla{
+    width: 50px;
+    height: 50px;
+    margin:0;
+}
+
+
 
 /*FOOTER*/
 
@@ -67,7 +99,8 @@ footer{
 
     background-color:#272626 ;
     margin: 0;
-
+    
+    
 }
 #caja-footer{
 
@@ -82,6 +115,8 @@ footer{
     font-size: 15px;
     font-family: 'Barlow Condensed', sans-serif;
     color: #FF6347;
+    right: 30px;
+    bottom: 30px;
 
 }
 
