@@ -1,0 +1,102 @@
+/*--------------------------------------------------FUENTES---------------------------------------------------------------------*/
+
+/*font-family: 'Barlow Condensed', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Barlow+Condensed:wght@500&display=swap');
+
+/*font-family: 'Architects Daughter';*/
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+
+/*-----------------------------------------------------BODY-------------------------------------------------------------------*/
+body{
+    margin:0;
+    background: rgb(51,51,51);
+    background: linear-gradient(0deg, rgba(51,51,51,1) 8%, rgba(69,55,53,1) 13%, rgba(80,58,54,1) 17%, rgba(94,61,55,1) 23%, rgba(128,69,58,1) 31%, rgba(145,73,60,1) 38%, rgba(156,76,61,1) 43%, rgba(255,99,71,1) 75%);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/*----------------------------------------------------HEADER-----------------------------------------------------------------*/
+
+header{
+    background-color: #272626;
+}
+
+#contenedor-de-contenedor-header{
+    position: relative;
+    background-color: #272626 ;
+    height: 100px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+#contenedor-header{
+    position: absolute;
+    font-size: 15px;
+    margin: 10px;
+    color: #FF6347;
+
+}
+
+/*-----------------------------------------------------MAIN-------------------------------------------------------------------*/
+
+#contenedor-de-contenedor-main{
+    position: relative;
+    height: 200px;
+}
+
+#contenedor-main{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 550px;
+    top: 50px;
+    background-color: #FFFFFF;	position: relative;	box-shadow: -1px 1px 14px 4px #333333;
+}
+
+#imagen-cancion{
+    width:  200px;
+    height: 200px;
+    
+}
+
+#contenedor-letra{
+    position: relative;
+    height: 450px;
+    margin-top:60px;
+}
+
+#letra{
+    position: absolute;
+    padding-top: 20px;
+    left: 470px;
+    margin-bottom:100px
+}
+.parrafo{
+
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Architects Daughter';
+    
+}
+
+/*-------------------------------------------------FOOTER------------------------------------------------------------*/
+
+footer{
+    background-color: #272626;
+    margin-top:1300px;
+    
+}
+
+#contenedor-de-contenedor-footer{
+    position: relative;
+    height: 300px;
+    margin:0;
+    
+   
+
+}
+
+#contenedor-footer{
+    position: absolute;
+    
+}
+

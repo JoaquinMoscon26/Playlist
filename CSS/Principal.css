@@ -1,18 +1,22 @@
-/*H1 fuente*/
+
+/*--------------------------------------------------FUENTES---------------------------------------------------------------------*/
+
+/*font-family: 'Barlow Condensed', sans-serif;*/
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Barlow+Condensed:wght@500&display=swap');
 
+/*font-family: 'Architects Daughter';*/
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 
 
 
-/*BODY*/
+/*---------------------------------------------------BODY-------------------------------------------------------------------*/
 body{
     margin:0 ;
     background-color: #FF6347
 
 }
 
-/*HEADER*/
+/*--------------------------------------------------HEADER----------------------------------------------------------*/
 header{
     background-color: rgb(39, 38, 38);
     
@@ -21,7 +25,7 @@ header{
 
 #caja-logo-header{
     position:relative;
-    height: 165px;
+    height: 130px;
 }
 
 #playlist-header{
@@ -41,7 +45,9 @@ h1{
     margin:0;
 }
 
-/*MAIN*/
+/*----------------------------------------------MAIN-----------------------------------------------------------*/
+
+/*-----------TABLA------------*/
 table{
     border: #333333  1px;
     margin: 30px auto;
@@ -71,10 +77,18 @@ td{
 
     
 }
-/*
-#tabla{
-    position: absolute;
 
+#tabla{
+    position: relative;
+   
+    
+}
+
+/*
+#fondo-tabla{
+
+    
+    
 }
 */
 
@@ -93,7 +107,7 @@ td{
 
 
 
-/*FOOTER*/
+/*-------------------------------------------------------------FOOTER-------------------------------------------------*/
 
 footer{
 
@@ -105,7 +119,7 @@ footer{
 #caja-footer{
 
     position: relative;
-    height: 130px;;
+    height: 200px;;
 }
 
 #caja-de-caja-footer{
@@ -118,6 +132,13 @@ footer{
     right: 30px;
     bottom: 30px;
 
+}
+
+#caja-de-caja-footer-2{
+
+    position: absolute;
+    right: 650px;
+    top: 20px;
 }
 
 
