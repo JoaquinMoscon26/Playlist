@@ -128,7 +128,7 @@ footer{
 
     font-size: 15px;
     font-family: 'Barlow Condensed', sans-serif;
-    color: #FF6347;
+    color: #ff6347;
     right: 30px;
     bottom: 30px;
 
@@ -136,9 +136,8 @@ footer{
 
 #caja-de-caja-footer-2{
 
-    position: absolute;
-    right: 650px;
-    top: 20px;
+    text-align: center;
+    padding-top: 30px;;
 }
 
 
