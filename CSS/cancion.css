@@ -40,10 +40,13 @@ header{
 
 /*-----------------------------------------------------MAIN-------------------------------------------------------------------*/
 
+
+
 #contenedor-de-contenedor-main{
     position: relative;
 
-    height: 200px;
+    height: 250px;
+
 }
 
 #contenedor-main{
@@ -65,7 +68,8 @@ header{
 #contenedor-letra{
     position: relative;
     
-    margin-top:60px;
+    width: 200px;
+    margin: 60px auto
 }
 
 #letra{
@@ -81,6 +85,23 @@ header{
     font-family: 'Architects Daughter';
     font-size: 20px;
     
+}
+
+#multimedia{
+    
+    width: 500px;
+    height: 300px;
+    margin:  0 auto;
+    
+    
+}
+
+
+#video{
+ 
+    border-left: 10px solid #464646;
+    border-top: 5px solid #464646;
+
 }
 
 /*-------------------------------------------------FOOTER------------------------------------------------------------*/
@@ -105,20 +126,25 @@ footer{
     
 }
 
-#contenedor-imagen-volver-atras{
+#contenedor-imagen-volver{
     
     height: 300px;
+    margin:0;
 }
 
-#contenedor-imagen-volver-atras img {
+#contenedor-imagen-volver img {
     width: 50px;
     height: 50px;
-    margin-top: 100px;
+    margin-top: 50px;
    
-    
     
 }
 
+
+#imagen-volver-arriba{
+
+    text-align: center;
+}
 
 #imagen-volver-atras{
 
